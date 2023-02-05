@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- style -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- swipe -->
+    <link rel="stylesheet" href="./libs/owlCarusel2/assets/owl.carousel.min.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__top-logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <nav class="header__top-nav">
+                    <div class="nav">
+                        <a href="#" class="nav-link">À la carte</a>
+                        <a href="#" class="nav-link">Wijnkaart</a>
+                        <a href="#" class="nav-link">Lunchmenu</a>
+                        <a href="#" class="nav-link">Contact</a>
+                    </div>
+                </nav>
+                <div class="header__top-phone">
+                    <a href="#" class="phone">+32 9 282 57 25</a>
+                </div>
+            </div>
+            <div class="header__nav">
+                <div class="nav-icon"></div>
+            </div>
+            <div class="header__content">
+                <div class="header__content-suptitle">
+                    <h4 class="header-suptitle">OPEN EVERYDAY 6AM - 9PM</h4>
+                </div>
+                <div class="header__content-title">
+                    <h1 class="header-title">A bad day with lunch is better than a good day without it.</h1>
+                </div>
+                <div class="header__reserve">
+                    <button class="button">
+                        <p class="reserve-button">Reserve a table</p>
+                    </button>
+
+                    <!-- modal -->
+                    <div class="modal">
+                        <div class="modal__content">
+                            <div class="modal__closed">
+                                <div class="closed"></div>
+                            </div>
+                
+                            <form id="contactForm" class="modal__form">
+                                <div class="modal__title">
+                                    <h1 class="modal--title">Reserve a table</h1>
+                                </div>
+                                <div class="modal__form-column">
+                                    <div class="modal__form-row">
+                                        <div class="form--row">
+                                            <label for="name">Name</label>
+                                            <input class="modal-input" name="name" type="text" id="name" placeholder="Input your name" required>
+                                        </div>
+                                        <div class="form--row">
+                                            <label for="email">Email</label>
+                                            <input class="modal-input" name="email" type="email" id="email" placeholder="Input your email" required>
+                                        </div>
+                                    </div>
+                                    <div class="modal__form-messege">
+                                        <label for="message">Speciale Request</label>
+                                        <textarea class="modal-input" name="message" id="message" placeholder="Input your special request" required></textarea>
+                                    </div>
+                                    <button type="submit" name="submit" class="modal-submit">Reserve</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <ul class="header-social">
+                        <li class="social-item">Fb</li>
+                        <li class="social-item">Ig</li>
+                        <li class="social-item">Tw</li>
+                        <li class="social-item">Yt</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="lunchmenu__section">
+        <div class="container">
+            <div class="lunchmenu__block">
+                <div class="lunchmenu-days">
+                    <div class="lunchmenu">
+                        <h1 class="days">Woensdag 12/01</h1>
+                        <div class="dishes">
+                            <span class="courses">Salade met Serrano</span>
+                            <span class="dot"></span>
+                            <span class="courses">Steak Tartaar</span>
+                        </div>
+                    </div>
+                    <div class="lunchmenu">
+                        <h1 class="days">Donderdag 13/01</h1>
+                        <div class="dishes">
+                            <span class="courses">Toast Roquefort</span>
+                            <span class="dot"></span>
+                            <span class="courses">Penne met Kip en Prei</span>
+                        </div>
+                    </div>
+                    <div class="lunchmenu">
+                        <h1 class="days">Vrijdag 14/01</h1>
+                        <div class="dishes">
+                            <span class="courses">Verrassing van de Chef</span>
+                            <span class="dot"></span>
+                            <span class="courses">Penne met Kip en Prei</span>
+                        </div>
+                    </div>
+                    <div class="lunchmenu">
+                        <h1 class="days">Vrijdag 15/01</h1>
+                        <div class="dishes">
+                            <span class="courses">Verrassing van de Chef</span>
+                            <span class="dot"></span>
+                            <span class="courses">Penne met Kip en Prei</span>
+                        </div>
+                    </div>
+                    <div class="lunchmenu">
+                        <h1 class="days">Vrijdag 16/01</h1>
+                        <div class="dishes">
+                            <span class="courses">Verrassing van de Chef</span>
+                            <span class="dot"></span>
+                            <span class="courses">Penne met Kip en Prei</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="lunchmenu__photo-frame">
+                    <div class="photo-first">
+                        <img src="./img/header/rest-1.jpg" alt="photo-first">
+                    </div>
+                    <div class="photo-second">
+                        <img src="./img/header/rest-2.jpg" alt="photo-second">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider__section">
+        <div class="container">
+            <div class="slider__content">
+                <div class="slider__title-desc">
+                    <div class="slider-title">
+                        <h1 class="title">Sfeerfoto's</h1>
+                    </div>
+                    <div class="slider-desc">
+                        <p class="desc">De beste manier om de sfeer te ervaren is eens langskomen.<br>
+                            In tussentijd hebben we hier alvast wat foto’s voor je klaar.</p>
+                    </div>
+                </div>
+                <div class="slider__arrow">
+                    <button class="slider__arrow-left" id="slider__next">
+                        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g class="slide-arrow-stroke">
+                                <path d="M43.8958 11.9L24.8792 30.9166C22.6333 33.1625 22.6333 36.8375 24.8792 39.0833L43.8958 58.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>  
+                    </button>
+                    <button class="slider__arrow-right" id="slider__prev">
+                        <svg width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g class="slide-arrow-stroke">
+                                <path d="M26.1042 11.9L45.1209 30.9166C47.3667 33.1625 47.3667 36.8375 45.1209 39.0833L26.1042 58.1" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                            </g>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+                <div class="slider__photo-content slider owl-carousel owl-theme" id="photo--slider">
+                    
+                        <div class="slider__content-photo slider__image photo--first">
+                            <img src="./img/slider/slider-photo.11.2.jpeg" alt="" class="slider-photo">
+                        </div>
+                    
+                        <div class="slider__content-photo slider__image photo--second">
+                            <img src="./img/slider/slider-photo2.1.1.jpeg" alt="" class="slider-photo">
+                        </div>
+                    
+                        <div class="slider__content-photo slider__image photo--third">
+                            <img src="./img/slider/slider-img3.jpeg" alt="" class="slider-photo">
+                        </div>
+                    
+                </div>
+        </div>
+    </section>
+    <section class="contacts__section">
+        <div class="container">
+            <div class="contacts__content">
+                <div class="contacts__info">
+                    <div class="contacts__title">
+                        <h1 class="contacts--title">Contacts</h1>
+                    </div>
+                    <div class="contact-block-body">
+                        <ul class="contact-list">
+                            <li class="contact-list-icon icon--phone">
+                                <a href="#">
+                                    <span class="contact--desc">Phone Number</span>
+                                    +32 9 282 57 25
+                                </a>
+                            </li>
+                            <li class="contact-list-icon mail">
+                                <a href="#">
+                                    <span class="contact--desc">Email</span>
+                                    info@email.com
+                                </a>
+                            </li>
+                            <li class="contact-list-icon clock">
+                                <span class="contact--desc">Opening Hours</span>
+                                Everyday from 6 AM - 9 PM
+                            </li>
+                            <li class="contact-list-icon address">
+                                <span class="contact--desc">Map Street</span>
+                                Jl. Raya Surabaya 2787
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <form id="contactForm" class="">
+                    <div class="contacts__title">
+                        <h1 class="contacts--title">have any questions?</h1>
+                    </div>
+                    <div class="contacts__form-group">
+                        <div class="contact__form">
+                            <div class="form-row">
+                                <label for="name" class="input-name">Name</label>
+                                <input class="input" name="name" type="text" id="name" placeholder="Input your name" required>
+                            </div>
+                            <div class="form-row">
+                                <label for="email" class="input-name">Email</label>
+                                <input class="input" name="email" type="email" id="email" placeholder="Input your email" required>
+                            </div>
+                        </div>
+                        <div class="form-textarea">
+                            <label for="message" class="input-name">Speciale Request</label>
+                            <textarea class="texterea" name="message" id="message" placeholder="Input your special request" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" name="submit" class="button-submit">Send</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <script src="./libs/jquery-3.6.3.min.js"></script>
+    <script src="./libs/owlCarusel2/owl.carousel.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/form.js"></script>
+    <script src="./js/main.js"></script>
+    
+</body>
+</html>

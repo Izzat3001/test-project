@@ -1,0 +1,161 @@
+
+.lunchmenu__section {
+    padding-top: 80px;
+    padding-bottom: 178px;
+
+    @media (max-width: 767px) {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+}
+
+.lunchmenu__block {
+    display: flex;
+    align-items: flex-end;
+    column-gap: 129px;
+
+    @media (max-width: 1139px) {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 100px;
+    }
+}
+
+.lunchmenu-days {
+    width: 469px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+    @media (max-width: 767px) {
+        width: 320px;
+        row-gap: 10px;
+    }
+   
+}
+
+.lunchmenu {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bd2a2a;
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+
+    @media (max-width: 767px) {
+        padding-bottom: 10px;
+    }
+}
+
+.days {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #000;
+
+    @media (max-width: 767px) {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+.dishes {
+    display: flex;
+    align-items: center;
+    column-gap: 29px;
+
+    @media (max-width: 767px) {
+        column-gap: 19px;
+    }
+}
+
+.courses {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #000;
+
+    @media (max-width: 767px) {
+        font-size: 12px;
+        line-height: 24px;
+    }
+}
+
+.dot {
+    position: relative;
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #D3B47F;
+
+    &::after {
+        position: absolute;
+        content: "";
+        width: 5px;
+        height: 5px;
+        top: 0;
+        right: 14px;
+        background-color: #D3B47F;
+        border-radius: 50%;
+
+        @media (max-width: 767px) {
+            right: 10px;
+        }
+    }
+
+    &::before {
+        position: absolute;
+        content: "";
+        width: 5px;
+        height: 5px;
+        top: 0;
+        right: -14px;
+        background-color: #D3B47F;
+        border-radius: 50%;
+
+        @media (max-width: 767px) {
+            right: -10px;
+        }
+    }
+}
+
+// photo-section 
+
+ .lunchmenu__photo-frame {
+    position: relative;
+    width: 471px;
+    height: 502px;
+    border: 2px solid #D3B47F;
+
+    @media (max-width: 767px) {
+        display: none;
+    }
+ }
+
+
+ .photo-second,
+ .photo-first {
+    position: absolute;
+    width: 323px;
+    height: 486px;
+    background-size: contain;
+
+    @media (max-width: 899px) {
+        height: 243px;
+    }
+
+
+ }
+
+ .photo-first {
+    top: 101px;
+    left: -100px;
+ }
+
+ .photo-second {
+    bottom: 67px;
+    right: -100px;
+ }
+
